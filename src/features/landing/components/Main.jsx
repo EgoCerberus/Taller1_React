@@ -7,8 +7,7 @@ export const Main = () => {
       <section
         className="text-white py-5"
         style={{
-          backgroundImage:
-            "linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)), url('/img/banner-tech.jpg')",
+          backgroundImage: `linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)), url('${import.meta.env.BASE_URL}img/banner-tech.jpg')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
